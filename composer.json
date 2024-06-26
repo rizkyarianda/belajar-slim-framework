@@ -1,0 +1,28 @@
+{
+  "name": "sites/slim",
+  "description": "contoh project menggunakan slim",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Rizky",
+      "email": "rizky@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Custom\\": "src/"
+    }
+  },
+  "require": {
+    "slim/slim": "4.*",
+    "slim/psr7": "^1.7",
+    "nyholm/psr7": "^1.8",
+    "nyholm/psr7-server": "^1.1",
+    "guzzlehttp/psr7": "^2",
+    "laminas/laminas-diactoros": "^3.3",
+    "opis/json-schema": "^2.3",
+    "php-di/php-di": "^7.0",
+    "phpmailer/phpmailer": "^6.9",
+    "vlucas/phpdotenv": "^5.6"
+  }
+}
